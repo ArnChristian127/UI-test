@@ -1,0 +1,30 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background-color: rgb(30, 29, 29);
+}
+.login-box-container {
+    background-color: rgb(52, 49, 49);
+    box-shadow: 0px 0px 10px rgb(117, 95, 205);
+    border: 2px solid rgb(117, 95, 205);
+    border-radius: 10px;
+}
+.btn-custom {
+    background: linear-gradient(to bottom, rgb(117, 95, 205), rgb(137, 121, 200));
+    color: white;
+    border-radius: 10px;
+}
+.btn-custom:hover {
+    background: linear-gradient(to bottom, rgb(113, 96, 177), rgb(134, 122, 178));
+    color: white;
+}
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #ccc !important;
+}
+.form-check-input:checked {
+    background-color: rgb(136, 136, 204) !important;
+    border-color: rgb(136, 136, 204) !important;
+}

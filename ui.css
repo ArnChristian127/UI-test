@@ -1,0 +1,31 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background-color: rgb(30, 29, 29);
+}
+.bg-custom {
+    background-color: rgb(117, 95, 205);
+}
+.navbar-brand-custom {
+    margin: 0px 0px 0px;
+    color: white;
+}
+.btn-custom {
+    background: linear-gradient(to bottom, rgb(117, 95, 205), rgb(137, 121, 200));
+    color: white;
+    border-radius: 10px;
+}
+.bg-gray {
+    background-color: rgb(52, 49, 49);
+    box-shadow: 0px 0px 10px rgb(117, 95, 205);
+    border: 2px solid rgb(117, 95, 205);
+    border-radius: 10px;
+}
+.card {
+    background-color: rgb(52, 49, 49) !important;
+    box-shadow: 0px 0px 10px rgb(117, 95, 205) !important;
+    border: 2px solid rgb(117, 95, 205) !important;
+    color: white;
+    border-radius: 10px !important; 
+}
